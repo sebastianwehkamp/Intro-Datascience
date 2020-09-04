@@ -1,0 +1,2 @@
+plot(as.Date.numeric(resultFrame$ReleaseDate,origin = "1970-01-01"), resultFrame$Budget, main="Year against Budget linear", xlab="Year", ylab="Budget (Dollar)")
+plot(as.Date.numeric(resultFrame$ReleaseDate,origin = "1970-01-01"), resultFrame$Budget, main="Year against Budget logaritmic", xlab="Year", ylab="Budget (Dollar)",log="y")
